@@ -14,13 +14,17 @@ print('There once was a ' + libs[4] + ' man named ' + libs[0] + ' who lived in '
 # Now MadLibs with random name generator
 
 import random     # Normally put import random at top of the code file.
-
-nameSelection = random.randrange(0,5)
-
 names = ['Billy', 'Bobby', 'Joseph', 'Octopus', 'Lewis']
+numGames = input('How many times would you like to play? ')
+numGames = int(numGames)
 
-print('There once was a ' + libs[4] + ' man named ' + names[nameSelection] + ' who lived in ' + libs[2] +
+i = 1
+
+while i <= numGames:
+    nameSelection = random.randrange(0,5)
+    print('There once was a ' + libs[4] + ' man named ' + names[nameSelection] + ' who lived in ' + libs[2] +
       '. He was around ' + libs[1] + ' years old and loved the colour ' + libs[3] + '.')
+    i += 1
 
 
 

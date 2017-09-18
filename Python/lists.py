@@ -49,3 +49,8 @@ print(shoppingList)
 # You can use negative indices to count backwards. i.e. -1 means last.
 
 print(shoppingList[-1])
+
+# To determine the number of elements in a list
+
+print("There are " + str(len(shoppingList)) + " elements in the list: shoppingList")
+print(shoppingList)
