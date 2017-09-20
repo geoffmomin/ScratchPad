@@ -54,3 +54,24 @@ print(shoppingList[-1])
 
 print("There are " + str(len(shoppingList)) + " elements in the list: shoppingList")
 print(shoppingList)
+
+# Indexing
+
+greeting = "Hello"
+print(greeting[0])
+print(greeting[-1])
+
+# Slicing
+
+url = '<a href="http://google.com">Google</a>'
+print(url[9:26])
+print(url[9:-12])
+
+# Multiplication
+
+print([42] * 10)
+
+# Membership
+
+print('o' in greeting)
+print('f' in greeting)
