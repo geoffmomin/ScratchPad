@@ -75,3 +75,24 @@ print([42] * 10)
 
 print('o' in greeting)
 print('f' in greeting)
+
+# Length, Minimum and Maximum
+
+numbers = [100, 54, 67]
+
+print(len(numbers))
+print(min(numbers))
+print(max(numbers))
+
+# Deleting from List
+
+names = ['Geoff', 'James', 'John']
+print(names)
+del names[2]
+print(names)
+
+
+# Convert string to list
+
+hello = list('Hello')
+print(hello)
