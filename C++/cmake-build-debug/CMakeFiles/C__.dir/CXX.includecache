@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/100514971/Google Drive/Learn to Program/Github/ScratchPad/C++/Sensoduino.cpp
+
+/cygdrive/c/Users/100514971/Google Drive/Learn to Program/Github/ScratchPad/C++/main.cpp
+iostream
+-
+
