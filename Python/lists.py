@@ -96,3 +96,16 @@ print(names)
 
 hello = list('Hello')
 print(hello)
+
+# For Loops in Lists
+for anItem in shoppingList:
+    print(anItem)
+
+team = ['Bill', 'Jane', 'Sue']
+for member in team:
+    print('Good luck ' + member)
+
+# Generate a range of numbers in a list
+
+myRangeList = range(0, 14)
+print(myRangeList)
